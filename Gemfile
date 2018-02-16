@@ -18,6 +18,11 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+# Gem for creating responsive designs
+ gem 'bootstrap', '~> 4.0'
+ gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
+ gem 'jquery-rails'
+ gem 'tether-rails', '~> 1.4'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
