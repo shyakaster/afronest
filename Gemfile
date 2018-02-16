@@ -23,6 +23,7 @@ gem 'uglifier', '>= 1.3.0'
  gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
  gem 'jquery-rails'
  gem 'tether-rails', '~> 1.4'
+ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.3'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'

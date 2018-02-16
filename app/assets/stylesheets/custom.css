@@ -1,0 +1,123 @@
+
+
+body * {
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+#footer {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    color: #fff;
+    text-align: justify;
+}
+#footer .top {
+    background: #202020;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+#footer .top .text .header {
+    padding: 5px 15px;
+    border-left: 2px solid #ccc;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .foot-address {
+    margin: 0;
+    list-style: none;
+  }
+
+  #footer .quick-links, #footer .foot-address {
+    margin: 0;
+    list-style: none;
+}
+#footer .quick-links a {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#footer .top .logo {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    float: none;
+}
+
+
+
+.section-title.title-white {
+    color: #fff;
+}
+
+.section-title {
+    padding: 10px 15px;
+    position: relative;
+    border-left: 2px solid;
+    margin-bottom: 20px;
+}
+
+.newsletter-block {
+    background-image: url('newsletter-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wide-block {
+    margin: 0 -1000px 0;
+    padding: 30px 1000px 10px;
+    /* background: #fff; */
+}
+
+.newsletter-form input[type="text"] {
+    width: 100%;
+    border-radius: 5px 0 0px 5px;
+    height: 60px;
+    padding: 15px;
+    font-size: 18px;
+}
+.newsletter-form input[type="submit"] {
+    height: 60px;
+    border: none;
+    width: 150px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 0px 5px 5px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.styler_bg_color, .styler_hover_bg_color:hover, .styler_parent_active.active > .styler_active_bg_color {
+    background-color: #a1a64a !important;
+}
+.section-title.title-white h2 .normal {
+    color: #ffffff;
+}
+/* .section-title h2 .normal {
+    color: #000;
+    display: block;
+}
+ */
+.section-title h2 {
+    font-size: 40px;
+    line-height: 38px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* h2 {
+    font-weight: bold;
+} */
+div {
+    display: block;
+}
