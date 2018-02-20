@@ -18,6 +18,10 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 # Gem for creating responsive designs
+ gem 'figaro'
+ gem 'carrierwave'
+ gem 'mini_magick' # For different versions of an image
+ gem 'fog'
  gem 'bootstrap', '~> 4.0'
  gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
  gem 'jquery-rails'
