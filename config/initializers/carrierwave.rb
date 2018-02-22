@@ -22,7 +22,7 @@ if Rails.env.production?
     secret_access_key: ENV.fetch('AWS_SECRET_ACCESS_KEY'),
     region:            ENV.fetch('AWS_REGION') # Required
   }
-   config.fog_directory     =  ENV['S3_BUCKET_NAME']
+   config.fog_directory     =  ENV('S3_BUCKET_NAME')
   end
 end
 
