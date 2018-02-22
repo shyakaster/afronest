@@ -121,7 +121,7 @@ row {
 div {
     display: block;
 }
-
+/*changes to the default bootstrap 4 carousel classes*/
 .tales {
   width: 100%;
 }
@@ -129,3 +129,12 @@ div {
   width:100%;
   max-height: 300px !important;
 }
+/* change the background color */
+.navbar {
+    background-color: #202020;
+    color: white;
+}
+/*change the color of the links in the navbar*/
+a.nav-link {color:#FFFFFF !important;}
+a.navbar-brand {color:#FFFFFF !important;}
+
