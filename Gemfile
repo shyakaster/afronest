@@ -22,7 +22,7 @@ gem 'uglifier', '>= 1.3.0'
  gem 'carrierwave'
  gem 'mini_magick' # For different versions of an image
  gem 'fog'
- # gem 'carrierwave-aws'
+ gem 'carrierwave-aws'
  gem 'bootstrap', '~> 4.0'
  gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
  gem 'jquery-rails'
